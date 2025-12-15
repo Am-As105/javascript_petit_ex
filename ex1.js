@@ -142,6 +142,8 @@ console.log("somme = " + somme);
 
 
 
+//7. Calculer la moyenne
+
 console.log("6. Calculer la  moyane du tableau");
 
 
@@ -161,4 +163,43 @@ while (i < data.length){
 console.log(" moyane = " +  somme / i);
 
 
+
+//8. Trouver un nombre donné (ex : 77)
+
+
+
+let   number = 77 ;
+i = 0; 
+while (i < data.length){
+
+     if (data[i]  ===  number){
+
+        console.log("nombre donné ");
+        return ;
+        
+     }
+
+   
+    i++;
+    
+}
+
+//8  Récupérer les nombres supérieurs à 20
+
+
+
+
+
+i = 0; 
+while (i < data.length){
+
+     if (data[i] ){
+
+        console.log("nombre donné ");
+        return ;
+        
+     }
+    i++;
+    
+}
 
